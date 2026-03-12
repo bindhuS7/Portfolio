@@ -1,5 +1,4 @@
 import { Box, Typography } from "@mui/material";
-import girl from "./images/download.webp"
 import { motion } from "framer-motion";
 import { aboutBox, primaryHead, secondaryHead } from "../Style";
 const MotionBox = motion(Box)
