@@ -6,6 +6,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Nav from "./Nav";
 import { useEffect, useState } from "react";
+import AnimatedBackground from "./AnimatedBackground ";
 const Home = () => {
      const [activeSection, setActiveSection] = useState("about");
 
@@ -34,9 +35,10 @@ const Home = () => {
     return (
         // "##0B1C2D"
         <Box sx={{
-            backgroundColor: "black", color: 'white', height: '100vh', overflowY: "hidden"
+            backgroundColor: "transparent", color: 'white', height: '100vh', overflowY: "hidden"
         }}>
              <Nav active={activeSection} />
+             <AnimatedBackground />
             <Box sx={{
                 height: "100vh",
                 overflowY: "auto",

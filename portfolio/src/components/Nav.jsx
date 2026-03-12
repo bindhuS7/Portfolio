@@ -9,8 +9,10 @@ import SimCardDownloadIcon from '@mui/icons-material/SimCardDownload';
 
 const Nav = ({ active }) => {
   const activeStyle = {
-    color: "#ff9800",
-    borderBottom: "2px solid #ff9800"
+    color: "#c35dae",
+    // borderBottom: "2px solid #ff9800",
+    // "&:hover": { color: "white" },
+    fontWeight: "bold",
   };
   return (
     <Box sx={{
@@ -20,18 +22,10 @@ const Nav = ({ active }) => {
     }} >
       <Box sx={{ backgroundColor: "black", color: 'white', height: "4vh", width: "98%", display: "flex", alignItems: "center", justifyContent: "space-between", }}>
         <Box sx={{ width: "30%", display: 'flex', justifyContent: "space-between", }}>
-          <Button href="#about" sx={active === "about" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", background: "linear-gradient(90deg, red, orange, yellow, green)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent", "&:hover": { color: "white" } }} >About </Button>
-          <Button href="#skills" sx={active === "skills" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", background: "linear-gradient(90deg, red, orange, yellow, green)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent", "&:hover": { color: "white" } }} >skills </Button>
-          <Button href="#experience" sx={active === "experience" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", background: "linear-gradient(90deg, red, orange, yellow, green)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent", "&:hover": { color: "white" } }} >exprience </Button>
-          <Button href="#projects" sx={active === "projects" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", background: "linear-gradient(280deg, red, orange, yellow, green)",
-    WebkitBackgroundClip: "text",
-    WebkitTextFillColor: "transparent", "&:hover": { color: "white" } }} >projects </Button>
+          <Button href="#about" sx={active === "about" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } }} >About </Button>
+          <Button href="#skills" sx={active === "skills" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } }} >skills </Button>
+          <Button href="#experience" sx={active === "experience" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } }} >exprience </Button>
+          <Button href="#projects" sx={active === "projects" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } }} >projects </Button>
 
         </Box>
 
