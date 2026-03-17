@@ -22,5 +22,9 @@ export const aboutBox = {
     width: "30%",
     padding: "1%",
     textAlign: "left",
+  //  "&:hover": {
+  // transform: "scale(1.05) translateY(-5px)",
+  // transition: "all 0.3s ease",
+// }
 }
 export const skillBox = { display: "flex", justifyContent: "flex-start", flexDirection: "column", alignItems: "start", width: "22%", padding: "1%", height: "45%" }

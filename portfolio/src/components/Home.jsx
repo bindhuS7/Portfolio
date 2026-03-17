@@ -63,9 +63,6 @@ const Home = () => {
                 <div id="skills" style={{ scrollMarginTop: "5vh" }}><Skills /></div>
                 <div id="experience" style={{ scrollMarginTop: "5vh" }}><Experience /></div>
                 <div id="projects" style={{ scrollMarginTop: "5vh" }}> <Projects /></div>
-
-
-
             </Box></Box>
     )
 }

@@ -12,6 +12,7 @@ const About = () => {
                     initial={{ x: -200, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
+                    whileHover={{scale:1.2,x:"40px"}}
                     sx={aboutBox}>
 
                     <Typography sx={secondaryHead} >
@@ -25,6 +26,7 @@ const About = () => {
                     initial={{ x: -200, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
+                     whileHover={{scale:1.2,x:"40px"}}
                     sx={aboutBox}>
 
                     <Typography sx={secondaryHead} >
@@ -37,6 +39,16 @@ const About = () => {
                     initial={{ x: -200, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
+                    whileHover={{
+    // position: "fixed",
+    // top: "50%",
+    // left: "50%",
+    // x: "-50%",
+    // y: "-50%",
+    scale: 1.2,
+    x:-20
+    // zIndex: 1000
+  }}
                     sx={aboutBox}>
 
                     <Typography sx={secondaryHead} > How I work

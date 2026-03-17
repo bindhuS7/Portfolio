@@ -1,12 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import girl from "./images/download.webp"
 import { motion } from "framer-motion";
-import { primaryHead, normalText, normalTextwithtextDecorationNone } from "../Style";
+import { normalText, normalTextwithtextDecorationNone } from "../Style";
 const MotionBox=motion(Box);
 const Contact=()=>{
     return(
     
-    <Box sx={{backgroundColor:"transparent",height:"40vh",display:'flex',justifyContent:"space-around",alignContent:"center",padding:"2%"}}>
+    <Box sx={{ backgroundColor:"transparent",height:{xs:"80vh",sm:"80vh",md:"60vh",lg:"50vh",xl:"40vh"},display:'flex',justifyContent:"space-around",alignContent:"center",padding:"2%",width:"100%",overflow:'hidden'}}>
       <MotionBox 
       initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -16,7 +16,11 @@ const Contact=()=>{
              "0%":{backgroundPosition:"0% 50%"},
              "50%":{backgroundPosition:"80% 100%"},
              "100%":{backgroundPosition:"100% 150%"}
-           }
+           }, fontSize:{ xs:"1rem",
+  sm:"1.2rem",
+  md:"1.5rem",
+  lg:"1.8rem",
+  xl:"2rem"}
           }}>Hi,
            I am Bindhu S
           </Typography>
