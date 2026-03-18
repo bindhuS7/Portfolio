@@ -13,6 +13,7 @@ const Nav = ({ active }) => {
     // borderBottom: "2px solid #ff9800",
     // "&:hover": { color: "white" },
     fontWeight: "bold",
+    fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "14px",xl:"16px" },
     // display:{xs:"block",sm:"none",md:"none",lg:"none",xl:"none"},
   };
   return (
@@ -25,16 +26,16 @@ const Nav = ({ active }) => {
     }} >
       <Box sx={{fontSize:{xs:"2px",md:"5px"}, backgroundColor: "black", color: 'white', height: "4vh", width: "98%",display:"flex", alignItems: "center", justifyContent: "space-between", }}>
         <Box sx={{ width: {xs:"80%",sm:"45%",md:"45%",lg:"30%",xl:"20%"}, display: 'flex', justifyContent: "space-between", display:{xs:"none",sm:"flex",md:"flex",lg:"flex",xl:"flex"}, }}>
-          <Button href="#about" sx={active === "about" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } ,display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "16px",xl:"18px" }, }} >About </Button>
-          <Button href="#skills" sx={active === "skills" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "16px" }, }} >skills </Button>
-          <Button href="#experience" sx={active === "experience" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "16px" }, }} >exprience </Button>
-          <Button href="#projects" sx={active === "projects" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "16px" }, }} >projects </Button>
+          <Button href="#about" sx={active === "about" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } ,display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "14px",xl:"16px" }, }} >About </Button>
+          <Button href="#skills" sx={active === "skills" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "14px",xl:"16px" }, }} >skills </Button>
+          <Button href="#experience" sx={active === "experience" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "16px",xl:"16px" }, }} >exprience </Button>
+          <Button href="#projects" sx={active === "projects" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "14px",xl:"16px" }, }} >projects </Button>
 
         </Box>
  {/* <Tooltip title="About">
   <AddHome sx={{ display:{xs:"flex",sm:"none",md:"none",lg:"none",xl:"none"}, onClick={()=>{}}}} />
 </Tooltip> */}
-        <Box sx={{ width: {xs:"100%",sm:"30%",md:"20%",lg:"30%",xl:"30%"}, display: 'flex', justifyContent: "space-between",}}>
+        <Box sx={{ width: {xs:"100%",sm:"30%",md:"20%",lg:"25%",xl:"25%"}, display: 'flex', justifyContent: "space-between",}}>
           <a href="https://github.com/bindhuS7?tab=repositories">
             <img src={git} alt="" style={{ width: '5', height: "5vh", color: "white", borderRadius: "55%" }} />
           </a>
