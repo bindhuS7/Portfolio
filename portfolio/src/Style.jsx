@@ -1,6 +1,6 @@
 export const primaryHead = { fontSize: "2vw", color: '#FFFFFF', fontWeight: 'bold', textTransform: "capitalize" }
-export const secondaryHead = { fontSize: "1vw", color: '#FFFFFF', fontWeight: 'bold',fontWeight:"1vw" }
-export const normalText = { color: "#B0BEC5" }
+export const secondaryHead = { fontSize:{xs:"1.8vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold',fontWeight:"1vw" }
+export const normalText = { color: "#B0BEC5",fontSize:{xs:"1.8vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"} }
 export const normalTextwithtextDecorationNone = { color: "#B0BEC5", textDecoration: "none" }
 export const aboutcontentdes={ color: "#B0BEC5",fontSize:{xs:"2.1vw",sm:"1.8vw",md:"1.5vw",lg:"1.2vw",xl:"1vw"} }
 export const aboutBox = {
@@ -26,4 +26,12 @@ export const aboutBox = {
   // transition: "all 0.3s ease",
 // }
 }
-export const skillBox = { display: "flex", justifyContent: "flex-start", flexDirection: "column", alignItems: "start", width: "22%", padding: "1%", height: "45%" }
+export const skillBox = { display: "flex", justifyContent: "flex-start", flexDirection: "column", alignItems: "start",
+   width: {
+    xs:"98%",
+    sm:"23%",
+    md:"23%",
+    lg:"23%",
+    xl:"23%"
+   }, 
+   padding: "1%", height:{xs:"90%",sm:"45%",md:"45%",lg:"45%",xl:"45%"} }
