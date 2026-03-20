@@ -1,6 +1,12 @@
 export const primaryHead = { fontSize: "2vw", color: '#FFFFFF', fontWeight: 'bold', textTransform: "capitalize" }
-export const secondaryHead = { fontSize:{xs:"1.8vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold',fontWeight:"1vw" }
-export const normalText = { color: "#B0BEC5",fontSize:{xs:"1.8vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"} }
+export const secondaryHead = { fontSize:{xs:"1vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold',fontWeight:"1vw" }
+export const normalText = { color: "#B0BEC5", fontSize: {
+    xs: "12px",
+    sm: "14px",
+    md: "16px",
+    lg: "16px",
+    xl: "18px"
+  } }
 export const normalTextwithtextDecorationNone = { color: "#B0BEC5", textDecoration: "none" }
 export const aboutcontentdes={ color: "#B0BEC5",fontSize:{xs:"2.1vw",sm:"1.8vw",md:"1.5vw",lg:"1.2vw",xl:"1vw"} }
 export const aboutBox = {
@@ -20,7 +26,6 @@ export const aboutBox = {
     width: {xs:"98%",sm:"30%",md:"30%",lg:"30%",xl:"25%"},
     padding: "1%",
     textAlign: "left",
-
   //  "&:hover": {
   // transform: "scale(1.05) translateY(-5px)",
   // transition: "all 0.3s ease",

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const MotionBox = motion(Box);
 const Skills = () => {
     return (
-        <Box sx={{ backgroundColor: "transparent", height: {xs:"25vh",sm:"5vh",md:"5vh",lg:"5vh",xl:"5vh"}, display: 'flex', justifyContent: "space-between", flexDirection:"column", padding: "2% 2% 2% 2%", marginBottom: "10vh" }}>
+        <Box sx={{ backgroundColor: "transparent", height: {xs:"25vh",sm:"10vh",md:"8vh",lg:"5vh",xl:"5vh"}, display: 'flex', justifyContent: "space-between", flexDirection:"column", padding: "2% 2% 2% 2%", marginBottom: "10vh" }}>
             <Typography sx={primaryHead}>skills</Typography>
             <Box sx={{ height: "80%", display: 'flex', justifyContent: "space-around", flexDirection: {xs:"column",sm:"row",md:"row",lg:"row",xl:"row"}, }}>
                <MotionBox
