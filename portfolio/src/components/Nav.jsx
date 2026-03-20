@@ -1,9 +1,8 @@
-import { Box, Button, Tooltip } from "@mui/material";
+import { Box, Button} from "@mui/material";
 import git from "./images/github_1.png"
 import naukri from "./images/OIP.webp"
 import linkedId from "./images/in1.webp"
 import resume from "./documents/bindhu.pdf"
-import AddHome from '@mui/icons-material/Menu';
 import SimCardDownloadIcon from '@mui/icons-material/SimCardDownload';
 
 
@@ -25,7 +24,7 @@ const Nav = ({ active }) => {
       zIndex: 1000, backgroundColor: "black", color: 'white', height: "6vh", width: "98%", display: "flex", alignItems: "center", justifyContent: "space-between", flexDirection: 'column', padding: "1%"
     }} >
       <Box sx={{fontSize:{xs:"2px",md:"5px"}, backgroundColor: "black", color: 'white', height: "4vh", width: "98%",display:"flex", alignItems: "center", justifyContent: "space-between", }}>
-        <Box sx={{ width: {xs:"80%",sm:"45%",md:"45%",lg:"30%",xl:"20%"}, display: 'flex', justifyContent: "space-between", display:{xs:"none",sm:"flex",md:"flex",lg:"flex",xl:"flex"}, }}>
+        <Box sx={{ width: {xs:"80%",sm:"45%",md:"45%",lg:"30%",xl:"20%"}, justifyContent: "space-between", display:{xs:"none",sm:"flex",md:"flex",lg:"flex",xl:"flex"}, }}>
           <Button href="#about" sx={active === "about" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" } ,display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "14px",xl:"16px" }, }} >About </Button>
           <Button href="#skills" sx={active === "skills" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "14px",xl:"16px" }, }} >skills </Button>
           <Button href="#experience" sx={active === "experience" ? activeStyle : { textDecorationLine: "blink", fontStyle: "initial", fontWeight: "bold", color: "white", "&:hover": { color: "white" },display:{xs:"none",sm:"block",md:"block",lg:"block",xl:"block"}, fontSize: { xs: "10px", sm: "10px", md: "14px", lg: "16px",xl:"16px" }, }} >exprience </Button>
