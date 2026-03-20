@@ -1,5 +1,4 @@
 import { Box, Typography } from '@mui/material'
-import React from 'react'
 import { normalText, primaryHead, secondaryHead } from '../Style'
 
 const Projects = () => {
@@ -13,9 +12,7 @@ const Projects = () => {
     xl: "70vh"
   }, display: 'flex', justifyContent: "space-around", flexDirection: "column", padding: "2% 2% 2% 2%", gap:2}}>
             <Typography sx={primaryHead}>Projects </Typography>
-
            <Box sx={{height:"90%",backgroundColor: "transparent", display: 'flex', justifyContent: "space-around", alignContent: "center", }}>
-            
              <Box sx={{ backgroundColor: "transparent", width:"45%",display: "flex", flexDirection: "column", justifyContent: "flex-start", pl: 4,}}>
                 <Typography sx={secondaryHead}>Sunray Business Operations Platform </Typography>
                 <Typography sx={normalText}>Developed over 15 responsive UI screens for complex financial workflows using React and Chakra UI. This involved integrating with more than 20 REST APIs for robust vendor management and efficient transaction processing.

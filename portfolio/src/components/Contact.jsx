@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import girl from "./images/download.webp"
 import { motion } from "framer-motion";
-import { normalText, normalTextwithtextDecorationNone } from "../Style";
+// import { normalText, normalTextwithtextDecorationNone } from "../Style";
 const MotionBox=motion(Box);
 const Contact=()=>{
     return(
