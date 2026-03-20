@@ -13,7 +13,7 @@ const Projects = () => {
   //   xl: "70vh"
   // }, 
   height:"auto",
-  display: 'flex', justifyContent: "space-around", flexDirection: "column", padding: "2% 2% 2% 2%", gap:2}}>
+  display: 'flex', justifyContent: "space-around", flexDirection: "column", padding: "2% 2% 2% 2%", gap:2,marginBottom:"10vh"}}>
             <Typography sx={primaryHead}>Projects </Typography>
            <Box sx={{height:"90%",backgroundColor: "transparent", display: 'flex', justifyContent: "space-around", alignContent: "center", }}>
              <Box sx={{ backgroundColor: "transparent", width:"45%",display: "flex", flexDirection: "column", justifyContent: "flex-start", pl: 4,}}>
