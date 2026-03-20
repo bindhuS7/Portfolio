@@ -3,13 +3,16 @@ import { normalText, primaryHead, secondaryHead } from '../Style'
 
 const Experience = () => {
     return (
-        <Box sx={{  backgroundColor: "transparent", height:  {
-    xs: "150vh",
-    sm: "100vh",
-    md: "85vh",
-    lg: "80vh",
-    xl: "70vh"
-  }, display: 'flex', justifyContent: "space-between", flexDirection: "column", padding: "2% 2% 0% 2%",}}>
+        <Box sx={{  backgroundColor: "transparent", 
+//             height:  {
+//     xs: "150vh",
+//     sm: "100vh",
+//     md: "85vh",
+//     lg: "80vh",
+//     xl: "70vh"
+//   },
+height:"auto",
+   display: 'flex', justifyContent: "space-between", flexDirection: "column", padding: "2% 2% 0% 2%",}}>
             <Typography sx={primaryHead}>Experience </Typography>
 
             <Box  sx={{

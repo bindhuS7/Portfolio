@@ -4,13 +4,16 @@ import { normalText, primaryHead, secondaryHead } from '../Style'
 const Projects = () => {
   return (
    
-     <Box sx={{  backgroundColor: "transparent",height:  {
-    xs: "120vh",
-    sm: "80vh",
-    md: "95vh",
-    lg: "75vh",
-    xl: "70vh"
-  }, display: 'flex', justifyContent: "space-around", flexDirection: "column", padding: "2% 2% 2% 2%", gap:2}}>
+     <Box sx={{  backgroundColor: "transparent",
+  //     height:  {
+  //   xs: "120vh",
+  //   sm: "80vh",
+  //   md: "95vh",
+  //   lg: "75vh",
+  //   xl: "70vh"
+  // }, 
+  height:"auto",
+  display: 'flex', justifyContent: "space-around", flexDirection: "column", padding: "2% 2% 2% 2%", gap:2}}>
             <Typography sx={primaryHead}>Projects </Typography>
            <Box sx={{height:"90%",backgroundColor: "transparent", display: 'flex', justifyContent: "space-around", alignContent: "center", }}>
              <Box sx={{ backgroundColor: "transparent", width:"45%",display: "flex", flexDirection: "column", justifyContent: "flex-start", pl: 4,}}>

@@ -1,5 +1,5 @@
-export const primaryHead = { fontSize: "2vw", color: '#FFFFFF', fontWeight: 'bold', textTransform: "capitalize" }
-export const secondaryHead = { fontSize:{xs:"1vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold' }
+export const primaryHead = {fontSize: "2vw", color: '#FFFFFF', fontWeight: 'bold', textTransform: "capitalize" }
+export const secondaryHead = { fontSize:{xs:"1.8vw",sm:"2vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold' }
 export const normalText = { color: "#B0BEC5", fontSize: {
     xs: "12px",
     sm: "14px",
@@ -16,13 +16,13 @@ export const aboutBox = {
     height: {xs:"20%",sm:"80%",md:"70%",lg:'80%',xl:"80%"},
     lineHeight: 2,
     border: "2px solid transparent",
-    borderRadius: "12px",
-    backgroundImage: `
-      linear-gradient(#1b0831, #1b0831),
-      linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)
-    `,
-    backgroundOrigin: "border-box",
-    backgroundClip: "padding-box, border-box",
+    // borderRadius: "12px",
+    // backgroundImage: `
+    //   linear-gradient(#1b0831, #1b0831),
+    //   linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet)
+    // `,
+    // backgroundOrigin: "border-box",
+    // backgroundClip: "padding-box, border-box",
     width: {xs:"98%",sm:"30%",md:"30%",lg:"30%",xl:"25%"},
     padding: "1%",
     textAlign: "left",

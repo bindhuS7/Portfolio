@@ -5,7 +5,10 @@ const MotionBox = motion(Box)
 const About = () => {
     return (
 
-        <Box sx={{ backgroundColor: "transparent", height: {xs:"40vh",sm:"45vh",md:"40vh",lg:"35vh",xl:"35vh"}, display: 'flex', justifyContent: "space-between",  flexDirection: "column", padding: "0% 2% 0% 2%"}}>
+        <Box sx={{ backgroundColor: "transparent",
+        //  height: {xs:"40vh",sm:"45vh",md:"40vh",lg:"35vh",xl:"35vh"},
+        height:'auto',
+          display: 'flex', justifyContent: "space-between",  flexDirection: "column", padding: "0% 2% 0% 2%"}}>
             <Typography sx={primaryHead}>About</Typography>
             <Box sx={{backgroundColor: "transparent", height: "95%", display: 'flex',flexDirection:{xs:"column",sm:"row",md:"row",lg:"row",xl:"row"}, justifyContent: "space-around", alignContent: "center", }}>
                 <MotionBox

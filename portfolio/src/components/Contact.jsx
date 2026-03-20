@@ -6,7 +6,9 @@ const MotionBox=motion(Box);
 const Contact=()=>{
     return(
     
-    <Box sx={{ backgroundColor:"transparent",height:{xs:"45vh",sm:"80vh",md:"60vh",lg:"50vh",xl:"40vh"},display:'flex',justifyContent:{xs:"center",sm:"center",md:"space-around",lg:"space-around",xl:"space-around"}, flexDirection:{xs:"column",sm:"column",md:"row",lg:"row",xl:"row"},alignItems:"center",padding:"2%",width:"100%",overflow:'hidden'}}>
+    <Box sx={{ backgroundColor:"transparent",
+    // height:{xs:"45vh",sm:"80vh",md:"60vh",lg:"50vh",xl:"40vh"}
+    height:"auto",display:'flex',justifyContent:{xs:"center",sm:"center",md:"space-around",lg:"space-around",xl:"space-around"}, flexDirection:{xs:"column",sm:"column",md:"row",lg:"row",xl:"row"},alignItems:"center",padding:"2%",width:"100%",overflow:'hidden'}}>
       <MotionBox 
       
       initial={{ x: -200, opacity: 0 }}
