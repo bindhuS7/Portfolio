@@ -1,5 +1,5 @@
 export const primaryHead = { fontSize: "2vw", color: '#FFFFFF', fontWeight: 'bold', textTransform: "capitalize" }
-export const secondaryHead = { fontSize:{xs:"1vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold',fontWeight:"1vw" }
+export const secondaryHead = { fontSize:{xs:"1vw",sm:"1vw",md:"1vw",lg:"1vw",xl:"1vw"}, color: '#FFFFFF', fontWeight: 'bold' }
 export const normalText = { color: "#B0BEC5", fontSize: {
     xs: "12px",
     sm: "14px",

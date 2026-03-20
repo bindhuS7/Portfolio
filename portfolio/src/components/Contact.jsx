@@ -12,7 +12,7 @@ const Contact=()=>{
       initial={{ x: -200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }} sx={{display:"flex"   ,justifyContent:"center" ,flexDirection:'column',alignItems:"start",height:"100%",lineHeight:2,}}>
-       <Typography sx={{background:"linear-gradient(360deg,red,green,yellow,blue,gray)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",fontWeight:"bold",fontSize:{xs:"3px",sm:"8px",md:"12px"},fontFamily:"Arial",fontStyle:"italic", 
+       <Typography sx={{background:"linear-gradient(360deg,red,green,yellow,blue,gray)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent",fontWeight:"bold",fontFamily:"Arial",fontStyle:"italic", 
            backgroundSize:"200% 200%",animation:"textAnimate 5s linear infinite"," @keyframes textAnimate":{
              "0%":{backgroundPosition:"0% 50%"},
              "50%":{backgroundPosition:"80% 100%"},
